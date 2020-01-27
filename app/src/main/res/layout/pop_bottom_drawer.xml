@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
+    android:id="@+id/root_scroll_view"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -17,6 +18,21 @@
             android:background="#b71c1c"
             android:layout_width="match_parent"
             android:layout_height="300dp">
+            <TextView
+                android:id="@+id/tv_up_1"
+                android:text="up_tv_1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"/>
+            <TextView
+                android:id="@+id/tv_up_2"
+                android:text="up_tv_2"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
 
         </LinearLayout>
         <LinearLayout
@@ -25,6 +41,21 @@
             android:background="#3d5afe"
             android:layout_width="match_parent"
             android:layout_height="600dp">
+            <TextView
+                android:id="@+id/tv_bottom_1"
+                android:text="bottom_tv_1"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"/>
+            <TextView
+                android:id="@+id/tv_bottom_2"
+                android:text="bottom_tv_2"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
 
         </LinearLayout>
 

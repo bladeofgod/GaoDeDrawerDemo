@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <Button
+    <TextView
         android:id="@+id/btn_test"
         android:text="test btn 1"
         android:layout_width="match_parent"
